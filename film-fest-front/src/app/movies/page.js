@@ -1,3 +1,5 @@
+"use client";
+import SmallMovie from './_components/smallMovie';
 import Image from "next/image";
 import styles from './movies.module.css';
 
@@ -12,6 +14,7 @@ export default function Movies(){
                 height={80}
                 priority
             />
+            <SmallMovie/>
         </main>
     );
 }
